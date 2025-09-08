@@ -9,7 +9,7 @@ use crate::{
         datatypes::SchemaRef,
         record_batch::RecordBatch,
     },
-    schema::WARC_1_0_SCHEMA,
+    schema::WARC_1_0_SCHEMA
 };
 
 type ReaderResult<T> = Result<T, Box<dyn std::error::Error>>;
